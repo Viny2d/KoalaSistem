@@ -1,99 +1,51 @@
-body {
-    background-color: rgb(255, 235, 182);
-    padding-top: 0px;font-family: 'Raleway', sans-serif;
+body{
+    margin: 0%;
+    font-size: 1.75em;
+    font-family: 'Concert One', sans-serif;
+    color: whitesmoke;
+    background-color: #E8C9FF;
+}
+main{
     text-align: center;
-    margin: 20px;
-    padding: 20px;
- }
-
-   img{
-      gap: 25px;
-      border-radius: 10px;
-      margin: 10px;
-   }
-
- h1 {
-    font-size: 200px;
-    font-family: 'Raleway', sans-serif;
-    background-image: url(Laotop.jpg);
-    color: rgba(255, 242, 199, 0.651);
-    text-decoration: solid;
-    margin-top: 0px;
-    border-radius: 10px;
- }
- 
- h2 {
-    font-size: 45px;
-    font-family: 'Raleway', sans-serif;
-    background-color: rgb(255, 220, 145);
-    color: black;
-    border-radius: 10px;
- }
-
- h3 {
-    font-size: 35px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(255, 235, 147);
-    color: black;
-    border-radius: 10px;
- }
-
- strong{
-   font-style: italic;
- }
-
- p {
-    font-size: 25px; 
-    text-align: justify;
-    color: black;
-    font-family: 'Roboto Slab', serif;
- }
-
- li {
-    font-size: 25px;
-    color: black;;
-    text-align: left;
-    font-family: 'Roboto Slab', serif;
 }
 
- .Doladinho {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#cabeçalho{
     margin: 0px;
-    gap: 25px;
- }
-
- .textodoladinho{
-   text-align: center; 
-   text-align: justify;
- }
-
-.imageminteira{
-   align-items: center;
-   justify-content: center;
-   position: relative;
-   padding: 20px;
-   width: 100%;
+    text-align: center;
+    padding: 1.5%;
+    font-size: 2.5em;
+    text-shadow: -1px -1px white, 5px 5px #333;
+    background-color: #2D0679;
+    border: ridge 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #b9a9ff;
 }
 
-.Matérias{
-   display: flex;
-   font-size: 20px;
+
+img#mesaestudo{
+    width: 50%;
+    margin-top: 2%;
+    border: solid 5px;
+    border-radius: 3%;
+    border-color: #2D0679;
 }
 
-.Referência{
-   font-size: 22px;
-   font-weight: bold;
+button{
+    text-align: center;
+    padding: 20px 15px;
+    margin: 0% 1%;
+    font-size: 0.85em;
+    font-family: 'Concert One', sans-serif;
+    text-shadow: -0.5px -0.5px white, 4px 4px #333;
+    color: whitesmoke;
+    background-color: #2D0679;
+    border: ridge 5px;
+    border-color: #b9a9ff;
+    border-radius: 20px;
 }
 
-a:hover{
-   font-size: 28px;
-   color: rgb(80, 0, 160);
-   text-decoration: none;
-}
-
-a{
-   text-decoration: none;
+button:hover{
+    transform: scale(1.075);
+    transition: all 300ms;
 }
